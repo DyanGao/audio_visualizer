@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/sounds/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ]
+}
