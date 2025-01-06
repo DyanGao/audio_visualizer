@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+#startButton {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+#startButton:hover {
+  background: white;
+  color: black;
+}
+
+#container {
+  position: fixed;
+  inset: 0;
+}
