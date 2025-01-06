@@ -7,3 +7,7 @@ A WebGL-based audio visualization tool built using **Three.js**, leveraging shad
 - **[Three.js](https://threejs.org/):** A JavaScript library for creating 3D graphics in the browser.
 - **Web Audio API:** For real-time audio processing.
 - **GLSL Shaders:** vertex and fragment shaders for dynamic visuals.
+
+## Demo
+
+> **Live Demo:** [https://audio-visualizer-woad.vercel.app/]  
