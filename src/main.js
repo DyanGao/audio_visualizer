@@ -120,7 +120,7 @@ class AudioVisualizer {
 // Usage
 const visualizer = new AudioVisualizer(
     'container',
-    '/sounds/376737_Skullbeatz___Bad_Cat_Maste.mp3'
+    '/sounds/376737_Skullbeatz___Bad_Cat_Maste.ogg'
 );
 
 const startButton = document.getElementById('startButton');
