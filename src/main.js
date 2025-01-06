@@ -67,7 +67,7 @@ class AudioVisualizer {
             iChannel0: {
                 value: await new Promise((resolve) => {
                     new THREE.TextureLoader().load(
-                        "src/textures/img.png",
+                        "/textures/img.png",
                         (texture) => {
                             texture.wrapS = THREE.RepeatWrapping;
                             texture.wrapT = THREE.RepeatWrapping;
